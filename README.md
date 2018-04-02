@@ -1,7 +1,7 @@
 # keyword_based_Sina_weibo_crawler
 A web crawler for Sina, search and retrieve microblogs that contain certain keywords  一个简单的python爬虫实践，爬取包含关键词的新浪微博
 
-[English](./README_Zh.md)
+[English](./README_Eh.md)
 ***
 
 此项目主要功能是通过微博“搜索”页面，每天自动爬取所有包含自定list中词汇的微博原数据。
