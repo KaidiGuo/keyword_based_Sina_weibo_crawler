@@ -5,6 +5,7 @@ A web crawler for Sina, search and retrieve microblogs that contain certain keyw
 ***
 
 此项目主要功能是通过微博“搜索”页面，每天自动爬取所有包含自定list中词汇的微博原数据。
+原为本人研究生论文【Spatial-temporal Analysis of International Connections Based on Textual Social Media Data】获取数据所用。
 
 
 **低速可控，简单粗暴，适合用来有针对性的搜集数据量不是很大的包含关键词的微博，每日可爬3-6万条**。
@@ -20,7 +21,7 @@ A web crawler for Sina, search and retrieve microblogs that contain certain keyw
 - 在 email_info.py中添加你自己的邮箱，密码，和接收邮箱
 - 在sina_crawler.py开头替换你自己的关键词列表
 - 日期格式转码和计算等方法都在function.py文件中
-- 后续的处理JSON，提取有用信息部分请看[用python处理微博JSON数据小例](./Weibo_Extract.md)
+- 后续的处理JSON，提取有用信息和我目标项目的本体部分请看[用python处理微博JSON数据小例](./Weibo_Extract.md)
 ***
 # 项目介绍
 - 本项目没有UI，虽然简陋但是我写的第一个爬虫，贵在能跑
