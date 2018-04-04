@@ -3,12 +3,15 @@ A web crawler for Sina, search and retrieve microblogs that contain certain keyw
 
 [中文](./README.md)
 ***
+This program originally was written to collect data for my master thesis:
+【Spatial-temporal Analysis of International Connections Based on Textual Social Media Data】
 
 # Information
 - Based on python 2
 - add your own Email setting in email_info.py
 - change your own search list at the beginning of sina_crawler.py
 - data format and other functions are all contained in function.py
+- JSON data processing part will be explained [here](./Weibo_Extract.md)
 ***
 # Introduction
 - No UI, looks shabby but this is my first crawler I am happy it function all well
