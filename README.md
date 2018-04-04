@@ -20,6 +20,7 @@ A web crawler for Sina, search and retrieve microblogs that contain certain keyw
 - 在 email_info.py中添加你自己的邮箱，密码，和接收邮箱
 - 在sina_crawler.py开头替换你自己的关键词列表
 - 日期格式转码和计算等方法都在function.py文件中
+- 后续的处理JSON，提取有用信息部分请看[用python处理微博JSON数据小例](./Weibo_Extract.md)
 ***
 # 项目介绍
 - 本项目没有UI，虽然简陋但是我写的第一个爬虫，贵在能跑
