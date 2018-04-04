@@ -5,6 +5,7 @@ A web crawler for Sina, search and retrieve microblogs that contain certain keyw
 ***
 
 此项目主要功能是通过微博“搜索”页面，每天自动爬取所有包含自定list中词汇的微博原数据。
+
 原为本人研究生论文【Spatial-temporal Analysis of International Connections Based on Textual Social Media Data】获取数据所用。
 
 
