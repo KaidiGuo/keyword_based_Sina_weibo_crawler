@@ -18,7 +18,7 @@ A web crawler for Sina, search and retrieve microblogs that contain certain keyw
 さぁ、始めよう~
 ***
 # 说明
-- 基于python 2
+- 基于python 2（添加了3的版本）
 - 在 email_info.py中添加你自己的邮箱，密码，和接收邮箱
 - 在sina_crawler.py开头替换你自己的关键词列表
 - 日期格式转码和计算等方法都在function.py文件中
@@ -108,7 +108,7 @@ urls = create_url_list(urlencoded_search_list)
   1. 给自己发一封邮件提示程序开始了
   2. 根据日期创建每日数据的文件夹
   3. 对于每一个在list中的关键词从page=1开始往后检索，获取一页写下一页，同时获取每一页最后后一条微博的创建时间，判断是否停止搜索
-  4.完成所有关键词检索后，给自己发一封邮件提示今日任务完成了
+  4. 完成所有关键词检索后，给自己发一封邮件提示今日任务完成了
   5. 打印一些数据信息，写每日记录，计算需要睡多久（保证每天在同一时刻开始任务以减少额外的未知误差）
 ***
 注释非常详细，细节就请直接参考代码.
